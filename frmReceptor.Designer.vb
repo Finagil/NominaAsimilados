@@ -34,7 +34,7 @@ Partial Class frmReceptor
         Dim Label1 As System.Windows.Forms.Label
         Dim MailLabel As System.Windows.Forms.Label
         Dim Seguro_socialLabel As System.Windows.Forms.Label
-        Me.ProductionVDataSet = New NóminaAsimilados.ProductionVDataSet()
+        Me.ProductionVDataSet = New NominaAsimilados.ProductionVDataSet()
         Me.txtNumEmpleado = New System.Windows.Forms.TextBox()
         Me.CFDIEmpleadosNominaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.txtRFC = New System.Windows.Forms.TextBox()
@@ -53,12 +53,12 @@ Partial Class frmReceptor
         Me.txtCURP = New System.Windows.Forms.TextBox()
         Me.btnGuardar = New System.Windows.Forms.Button()
         Me.cmbNombre = New System.Windows.Forms.ComboBox()
-        Me.CFDI_Empleados_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_Empleados_NominaTableAdapter()
-        Me.CFDI_TipoContrato_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoContrato_NominaTableAdapter()
-        Me.CFDI_TipoRegimen_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoRegimen_NominaTableAdapter()
-        Me.CFDI_PeriodicidadPago_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_PeriodicidadPago_NominaTableAdapter()
-        Me.CFDI_Estado_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_Estado_NominaTableAdapter()
-        Me.TableAdapterManager = New NóminaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager()
+        Me.CFDI_Empleados_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_Empleados_NominaTableAdapter()
+        Me.CFDI_TipoContrato_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoContrato_NominaTableAdapter()
+        Me.CFDI_TipoRegimen_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoRegimen_NominaTableAdapter()
+        Me.CFDI_PeriodicidadPago_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_PeriodicidadPago_NominaTableAdapter()
+        Me.CFDI_Estado_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_Estado_NominaTableAdapter()
+        Me.TableAdapterManager = New NominaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager()
         Me.NombreTextBox = New System.Windows.Forms.TextBox()
         Me.MailTextBox = New System.Windows.Forms.TextBox()
         Me.Seguro_socialTextBox = New System.Windows.Forms.TextBox()
@@ -367,7 +367,7 @@ Partial Class frmReceptor
         Me.TableAdapterManager.CFDI_TipoPercepcion_NominaTableAdapter = Nothing
         Me.TableAdapterManager.CFDI_TipoRegimen_NominaTableAdapter = Me.CFDI_TipoRegimen_NominaTableAdapter
         Me.TableAdapterManager.LlavesTableAdapter = Nothing
-        Me.TableAdapterManager.UpdateOrder = NóminaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        Me.TableAdapterManager.UpdateOrder = NominaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
         'NombreTextBox
         '

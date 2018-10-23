@@ -40,7 +40,7 @@ Partial Class frmNomina
         Me.gbReceptor = New System.Windows.Forms.GroupBox()
         Me.NumEmpleadoTextBox = New System.Windows.Forms.TextBox()
         Me.CFDIEmpleadosNominaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.ProductionVDataSet = New NóminaAsimilados.ProductionVDataSet()
+        Me.ProductionVDataSet = New NominaAsimilados.ProductionVDataSet()
         Me.Seguro_socialTextBox = New System.Windows.Forms.TextBox()
         Me.btnActualizar = New System.Windows.Forms.Button()
         Me.MailTextBox = New System.Windows.Forms.TextBox()
@@ -122,12 +122,12 @@ Partial Class frmNomina
         Me.tssSerie = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.tssFolio = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.CFDI_Empleados_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_Empleados_NominaTableAdapter()
+        Me.CFDI_Empleados_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_Empleados_NominaTableAdapter()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnEmitirCFDI = New System.Windows.Forms.Button()
-        Me.TableAdapterManager = New NóminaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager()
-        Me.CFDI_TipoPercepcion_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoPercepcion_NominaTableAdapter()
-        Me.CFDI_TipoDeduccion_NominaTableAdapter = New NóminaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoDeduccion_NominaTableAdapter()
+        Me.TableAdapterManager = New NominaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager()
+        Me.CFDI_TipoPercepcion_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoPercepcion_NominaTableAdapter()
+        Me.CFDI_TipoDeduccion_NominaTableAdapter = New NominaAsimilados.ProductionVDataSetTableAdapters.CFDI_TipoDeduccion_NominaTableAdapter()
         Me.cmbRFCSubcontrata = New System.Windows.Forms.ComboBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -1137,7 +1137,7 @@ Partial Class frmNomina
         Me.TableAdapterManager.CFDI_TipoPercepcion_NominaTableAdapter = Nothing
         Me.TableAdapterManager.CFDI_TipoRegimen_NominaTableAdapter = Nothing
         Me.TableAdapterManager.LlavesTableAdapter = Nothing
-        Me.TableAdapterManager.UpdateOrder = NóminaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        Me.TableAdapterManager.UpdateOrder = NominaAsimilados.ProductionVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
         'CFDI_TipoPercepcion_NominaTableAdapter
         '

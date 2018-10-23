@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F5898D67-2254-4B12-993C-67F726A72593}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>NóminaAsimilados.My.MyApplication</StartupObject>
-    <RootNamespace>NóminaAsimilados</RootNamespace>
-    <AssemblyName>NóminaAsimilados</AssemblyName>
+    <StartupObject>NominaAsimilados.My.MyApplication</StartupObject>
+    <RootNamespace>NominaAsimilados</RootNamespace>
+    <AssemblyName>NominaAsimilados</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>NóminaAsimilados.xml</DocumentationFile>
+    <DocumentationFile>NominaAsimilados.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
     <RunCodeAnalysis>true</RunCodeAnalysis>
@@ -35,7 +35,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>NóminaAsimilados.xml</DocumentationFile>
+    <DocumentationFile>NominaAsimilados.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
